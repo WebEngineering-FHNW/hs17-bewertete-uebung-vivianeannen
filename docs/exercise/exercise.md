@@ -2,10 +2,15 @@
 
 ## Commit Proposal
 
-Matriculation Number: <to be filled by student>
+Matriculation Number: <15-651-177>
 
 Project idea short description: 
 
+A Blog, where the administrator can create/edit posts and viewers
+may comment/like it.
+The blog has an admin section (password protected, 3. priority) and a public section
+The editor can add pictures, texts
+Nice to have: Polls
 
 ## Project confirmation
 
