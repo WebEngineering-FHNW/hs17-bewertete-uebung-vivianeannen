@@ -14,7 +14,12 @@ Nice to have: Polls
 
 ## Project confirmation
 
-< to be filled by lecturer>
+Confirmed.
+
+Cool project. 
+It requires the user to identify as admin, editor, maybe other(?)
+Proper identification is difficult. You best keep it as simple as possible.
+For this kind of exercise it would be ok if the user just selects his role himself.
 
 
 ## Project delivery <to be filled by student>
