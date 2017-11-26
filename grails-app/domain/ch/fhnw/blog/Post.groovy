@@ -9,6 +9,8 @@ class Post {
     Date created = new Date()
     Date published
 
+    static hasMany = [comments:Comment]
+
     static constraints = {
     }
 

@@ -32,7 +32,7 @@ Project description:      (if other than `/index.html`)
 
 External contributions:
 
-Other comments: 
+Other comment: 
 
 I'm particular proud of:
 

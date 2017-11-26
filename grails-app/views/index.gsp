@@ -43,6 +43,9 @@
                 </g:each>
             </ul>
         </li>
+        <li> <a href="public/about"><button type="button">About</button></a></li>
+        <li> <a href="admin/index"><button type="button">Admin</button></a></li>
+
     </content>
 
     <div class="svg" role="presentation">
