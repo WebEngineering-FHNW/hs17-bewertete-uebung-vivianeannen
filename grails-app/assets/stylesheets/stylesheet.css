@@ -1,0 +1,72 @@
+body {
+    background-color: white;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #ffd6d1;}
+
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+.footer {
+    background:#333;
+}
+
+.ExploreBtn {
+    background: #ffd6d1;
+    border: none;
+    color: #333;
+}
+
+.WelcomeTxt {
+    color: #111;
+    font-family: "Mongolian Baiti";
+}
+
+.va-logo-container {
+    background: #ffd6d1;
+    no-repeat:50% 30%;
+    margin-bottom: 20px;
+    color: white;
+    height:305px;
+    text-align:center;
+}
+
+.va_logo {
+    width: 300px;
+    height: 300px;
+}
+
+.va_logo_small {
+    width: 18px;
+    height:18px;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
