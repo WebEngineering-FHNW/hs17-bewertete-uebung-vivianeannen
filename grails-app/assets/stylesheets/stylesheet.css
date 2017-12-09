@@ -23,7 +23,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-ul.topnav li a.active {background-color: #ffd6d1;}
+ul.topnav li a.active {background-color: #ffd6d1; color: #333}
 
 ul.topnav li.left {float: left;}
 
@@ -47,14 +47,29 @@ ul.topnav li.left {float: left;}
     font-family: "Mongolian Baiti";
 }
 
-.va-logo-container {
+/*.va-logo-container {
     background: #ffd6d1;
     no-repeat:50% 30%;
     margin-bottom: 20px;
     color: white;
-    height:305px;
+    height:295px;
     text-align:center;
+}*/
+
+/*.va-logo-container {
+    position: relative;
 }
+
+.va-logo-container .top_pic {
+    position: absolute;
+    text-align: center;
+
+    top: 0; bottom:0; left: 38%; right:40%;
+
+    z-index: 1;
+}*/
+
+
 
 .va_logo {
     width: 300px;
@@ -67,6 +82,29 @@ ul.topnav li.left {float: left;}
 }
 
 * {
-    border-radius: 0 !important;
+    border-radius: 0 !important;}
+
+#content_blog .row > h1 {
+    font-size: 34px;
+    line-height: 60px;
+    font-weight: 200;
+    margin: 0;
+    padding: 20px 0
+
 }
+
+.blog_body{
+
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+}
+
+#body_align{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
 
