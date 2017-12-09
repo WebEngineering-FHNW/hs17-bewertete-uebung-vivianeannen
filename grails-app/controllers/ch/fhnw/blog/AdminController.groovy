@@ -7,6 +7,4 @@ class AdminController {
         respond Post.list(params), model:[postCount: Post.count()]
     }
 
-
-
 }

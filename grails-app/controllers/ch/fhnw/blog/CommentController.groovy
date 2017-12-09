@@ -6,6 +6,8 @@ import static org.springframework.http.HttpStatus.CREATED
 import static org.springframework.http.HttpStatus.NO_CONTENT
 
 class CommentController {
+
+    //save the created comment
     @Transactional
     def save(Comment comment) {
         if (comment == null) {
@@ -25,6 +27,7 @@ class CommentController {
         redirect(controller: "public", action: "show", id: comment.post.id)
     }
 
+    //delete the created comment
     @Transactional
     def delete(Comment comment) {
 
