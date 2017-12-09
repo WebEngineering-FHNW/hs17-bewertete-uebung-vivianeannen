@@ -11,9 +11,6 @@ class Post {
 
     static hasMany = [comments:Comment]
 
-    static constraints = {
-    }
-
     static mapping = {
         body type: 'text'
     }
