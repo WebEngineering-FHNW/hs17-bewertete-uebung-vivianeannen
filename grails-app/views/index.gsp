@@ -1,13 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="layout" content="main"/>
     <meta charset="UTF-8">
     <title>Life of Annen</title>
     <asset:link rel="icon" href="vaicon.ico" type="image/x-ico"/>
-    <asset:stylesheet src="bootstrap.css"></asset:stylesheet>
-    <asset:stylesheet src="stylesheet.css"></asset:stylesheet>
-
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:stylesheet src="stylesheet.css"/>
 </head>
 
 <body>

@@ -2,10 +2,12 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <asset:stylesheet src="bootstrap.css"></asset:stylesheet>
-    <asset:stylesheet src="stylesheet.css"></asset:stylesheet>
+    <meta charset="UTF-8">
+    <title>Post Create</title>
+    <asset:link rel="icon" href="vaicon.ico" type="image/x-ico"/>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:stylesheet src="stylesheet.css"/>
     <g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}"/>
-    <title><g:message code="default.create.label" args="[entityName]"/></title>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
     <g:hasErrors bean="${this.post}">
         <ul class="errors" role="alert">
             <g:eachError bean="${this.post}" var="error">
-                <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message
+                <li> <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message
                         error="${error}"/></li>
             </g:eachError>
         </ul>
@@ -45,7 +47,6 @@
         </fieldset>
         <fieldset class="buttons">
             <g:submitButton name="create" class="save" value="Post"/>
-            %{--${message(code: 'default.button.create.label', default: 'Create')}--}%
         </fieldset>
     </g:form>
 </div>

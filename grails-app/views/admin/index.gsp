@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <asset:stylesheet src="bootstrap.css"></asset:stylesheet>
-    <asset:stylesheet src="stylesheet.css"></asset:stylesheet>
     <meta name="layout" content="main"/>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <asset:link rel="icon" href="vaicon.ico" type="image/x-ico"/>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:stylesheet src="stylesheet.css"/>
     <g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}"/>
-    <title><g:message code="default.list.label" args="[entityName]"/></title>
 </head>
 
 <body>
@@ -21,7 +23,6 @@
 
 <div class="nav" role="navigation">
     <ul>
-        %{--<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>--}%
         <li><g:link class="create" action="create" controller="post"><g:message code="default.new.label"
                                                                                 args="[entityName]"/></g:link></li>
     </ul>

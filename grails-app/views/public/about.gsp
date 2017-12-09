@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <asset:stylesheet src="bootstrap.css"></asset:stylesheet>
-    <asset:stylesheet src="stylesheet.css"></asset:stylesheet>
     <meta name="layout" content="main"/>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <asset:link rel="icon" href="vaicon.ico" type="image/x-ico"/>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:stylesheet src="stylesheet.css"/>
     <g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}"/>
-    <title><g:message code="default.list.label" args="[entityName]"/></title>
 </head>
 
 <body>
@@ -37,8 +39,6 @@
     invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
     ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
-
 </div>
-
 </body>
 </html>

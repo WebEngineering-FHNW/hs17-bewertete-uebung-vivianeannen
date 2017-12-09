@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <asset:stylesheet src="bootstrap.css"></asset:stylesheet>
-    <asset:stylesheet src="stylesheet.css"></asset:stylesheet>
     <meta name="layout" content="main"/>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <asset:link rel="icon" href="vaicon.ico" type="image/x-ico"/>
+    <asset:stylesheet src="bootstrap.css"/>
+    <asset:stylesheet src="stylesheet.css"/>
     <g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}"/>
-    <title><g:message code="default.list.label" args="[entityName]"/></title>
 </head>
 
 <body>
@@ -24,12 +26,10 @@
 
             <p class="blog_body">${post.body}</p>
             <g:link controller="public" action="show" id="${post.id}"><button
-                    class="btn ExploreBtn">Read More</button></g:link>
-
+                    class="btn ExploreBtn">Read More</button>
+            </g:link>
         </g:each>
-
     </section>
 </div>
-
 </body>
 </html>
