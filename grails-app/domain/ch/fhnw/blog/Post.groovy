@@ -9,6 +9,9 @@ class Post {
     Date created = new Date()
     Date published
 
+    static constraints = {
+        body widget: 'textarea'
+    }
     static hasMany = [comments:Comment]
 
     static mapping = {

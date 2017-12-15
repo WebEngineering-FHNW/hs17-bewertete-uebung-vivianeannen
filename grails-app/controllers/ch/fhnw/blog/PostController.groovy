@@ -90,7 +90,7 @@ class PostController {
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.deleted.message', args: [message(code: 'post.label', default: 'Post'), post.id])
-                redirect action:"index", method:"GET"
+                redirect controller: "admin", action:"index", method:"GET"
             }
             '*'{ render status: NO_CONTENT }
         }

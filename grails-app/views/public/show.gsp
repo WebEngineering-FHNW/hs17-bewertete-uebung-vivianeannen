@@ -36,16 +36,17 @@
             <fieldset class="form">
                 Name:<br>
                 <input type="text" name="author">
-                <textarea name="body" rows="10" cols="30" placeholder="Write your comment..."></textarea>
+                <textarea name="body" rows="10" cols="30" placeholder="Share your thoughts..."></textarea>
                 <input type="hidden" name="post" value="${post.id}"/>
             </fieldset>
             <g:each var="comment" in="${post.comments}">
-                ${comment.author}
+                ${comment.author}:
                 ${comment.body}<br>
             </g:each>
-            <fieldset class="buttons">
-                <g:submitButton name="create" class="save"
-                                value="${message(code: 'default.button.create.label', default: 'Create')}"/>
+            <br>
+            <fieldset>
+                <g:submitButton name="create" class="PostBtn"
+                                value="Comment"/>
             </fieldset>
         </g:form>
     </div>

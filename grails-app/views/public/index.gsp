@@ -18,9 +18,16 @@
     <li><a href="/">Home</a></li>
     <li class="left"><a href="/"><asset:image src="VA_Logo_white.svg" class="va_logo_small"/></a></li>
 </ul>
+<div class="svg" role="presentation">
+    <div class="va-logo-container">
+        <asset:image src="bgblog.svg" class="bottom_pic"/>
+    </div>
+</div>
 
 <div id="content_blog" role="main">
-    <section class="row col-lg-offset-3">
+    %{--<asset:image src="leafpattern.png" alt="Leaves" class="img-align"/>--}%
+    <section class="row">
+
         <g:each var="post" in="${postList}">
             <h1>${post.title}</h1>
 
@@ -29,6 +36,7 @@
                     class="btn ExploreBtn">Read More</button>
             </g:link>
         </g:each>
+
     </section>
 </div>
 </body>

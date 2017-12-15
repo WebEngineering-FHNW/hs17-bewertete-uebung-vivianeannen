@@ -85,6 +85,7 @@ ul.topnav li.left {float: left;}
     border-radius: 0 !important;}
 
 #content_blog .row > h1 {
+
     font-size: 34px;
     line-height: 60px;
     font-weight: 200;
@@ -94,12 +95,15 @@ ul.topnav li.left {float: left;}
 }
 
 .blog_body{
-
     text-overflow: ellipsis;
     line-height: 1.5em;
     height: 3em;
     overflow: hidden;
+    white-space: nowrap;
+    width: 800px;
+
 }
+
 
 #body_align{
     margin-left: 50px;
@@ -107,4 +111,85 @@ ul.topnav li.left {float: left;}
     margin-top: 30px;
 }
 
+
+.PostBtn {
+    background: #ffd6d1;
+    border: none;
+    color: #333;
+    text-align: right;
+}
+
+.img-align {
+    float: left;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.img-align-pp {
+    float: right;
+    height: 500px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
