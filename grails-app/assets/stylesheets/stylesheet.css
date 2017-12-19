@@ -47,29 +47,6 @@ ul.topnav li.left {float: left;}
     font-family: "Mongolian Baiti";
 }
 
-/*.va-logo-container {
-    background: #ffd6d1;
-    no-repeat:50% 30%;
-    margin-bottom: 20px;
-    color: white;
-    height:295px;
-    text-align:center;
-}*/
-
-/*.va-logo-container {
-    position: relative;
-}
-
-.va-logo-container .top_pic {
-    position: absolute;
-    text-align: center;
-
-    top: 0; bottom:0; left: 38%; right:40%;
-
-    z-index: 1;
-}*/
-
-
 
 .va_logo {
     width: 300px;

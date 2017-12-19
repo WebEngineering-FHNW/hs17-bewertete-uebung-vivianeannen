@@ -30,11 +30,11 @@ How to test the project:  (if other than `grailsw test-app`)
 
 Project description:      (if other than `/index.html`) hs17-bewertete-uebung-vivianeannen\src\main\resources\public\index.html or http://localhost:8080/static/index.html
 
-External contributions:
+External contributions: multiple snippets from W3Schools
 
 Other comment: 
 
-I'm particular proud of:
+I'm particular proud of: my Logo, the usage of Grails
 
 
 ## Project grading 
