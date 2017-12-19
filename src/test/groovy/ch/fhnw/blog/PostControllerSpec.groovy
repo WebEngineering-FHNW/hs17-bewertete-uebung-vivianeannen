@@ -10,7 +10,7 @@ class PostControllerSpec extends Specification {
     def populateValidParams(params) {
         assert params != null
 
-        // TODO: Populate valid properties like...
+
         params["title"] = 'Title'
         params["body"] = 'This is a text'
         params["author"] = 'John Doe'
@@ -140,7 +140,7 @@ class PostControllerSpec extends Specification {
 
         then:"The instance is deleted"
             Post.count() == 0
-            response.redirectedUrl == '/post/index'
+            response.redirectedUrl == '/admin/index'
             flash.message != null
     }
 }
