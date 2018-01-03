@@ -39,4 +39,31 @@ I'm particular proud of: my Logo, the usage of Grails
 
 ## Project grading 
 
-< to be filled by lecturer>
+Description HTML is very basic but fully valid (not even warnings).
+All works fine, except that posts are shown even though the publication date
+is not yet reached.
+
+Functionality:
+Basic navigation. User input with basic, syntatic validation and
+interactive display of validation by means of Grails.
+CRUD functionality for a two-class domain with a one-to-many relationship.
+
+Engineering:
+Commit log is fine. 
+Unit tests cover the posting logic nicely. It would have been nice to see tests for the
+commenting feature or integration tests.
+The HTML is valid with tiny exceptions (A document must not include both a meta element with an http-equiv attribute whose value is content-type, and a meta element with a charset attribute).
+Commenting and Naming is ok.
+Nice use of Grails features, e.g. layout to avoid duplication.
+
+I award two extra points for the artistic value.
+Since we are hitting the ceiling anyway, I spare the effort of awarding more possible extra points.
+
+Congratulations!
+You have created a full, distributed, DB-based, multi-user, interactive web application from scratch
+all on your own. You achieved a nice, polished result that shines with clean, engaging design
+that shows your attention to detail. Moreover the application is cleanly structured, makes very good
+use of the Grails framework, uses Web MVC, and comes with a comprehensive test suite.
+Should you ever need work examples to show in a job application, you can use this project.
+
+Total Grade: 6.0
